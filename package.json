@@ -1,0 +1,12 @@
+{
+  "name": "fieldline-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/pipeline.test.mjs",
+    "verify:integration": "node scripts/verify-integration.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node src/api/server.mjs"
+  }
+}
